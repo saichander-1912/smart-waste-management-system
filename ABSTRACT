@@ -1,0 +1,7 @@
+Waste management is a significant challenge for governments, often due to inadequate monitoring that leads to overflowing bins despite sufficient bin placement.
+This project proposes a solution in the form of "Smart Bins," which leverage ESP8266 technology to process data and transmit it to ThingSpeak. Key data transmitted 
+includes the bin’s location, fullness status, service status, and type (biodegradable or non-biodegradable). The system also features a handheld device for municipal
+drivers, powered by Arduino Uno, allowing them to interact with the system, locate bins, and update their statuses. Additionally, a GSM module sends the bin’s location
+to drivers when service is required. To assess bin health, the design incorporates an ultrasonic sensor, weight sensor, and gas sensor. For administrators, a comprehensive
+monitoring and reporting system provides real-time tracking and monthly summaries. A public-facing complaint registration system is also included, enabling citizens to report 
+waste management issues. Smell detection sensors facilitate the prompt removal of contaminated waste, ensuring faster and more efficient service.
